@@ -132,7 +132,7 @@ class App extends Component {
               <motion.a href={
                  window.location = window.location.href.includes('localhost')
                  ? 'http://localhost:8888/'
-                 : 'https://jammin-to-server.herokuapp.com/'}
+                 : 'https://jammin-to-server.herokuapp.com/login'}
                  className='sign-in'>sign in</motion.a>
               </span> to Spotify.
             </motion.h1>
