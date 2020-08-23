@@ -128,13 +128,11 @@ class App extends Component {
               animate={{ opacity: [0, 1], y: [-100, 150]}}
               transition={{ duration: 0.8, ease: "easeInOut" }}
             >
-              First, let's <span>
-              <motion.a href={
-                 window.location = window.location.href.includes('localhost')
-                 ? 'http://localhost:8888/'
+              First, let's <span onClick={
+                 window.open = window.location.href.includes('localhost')
+                 ? 'http://localhost:8888/login'
                  : 'https://jammin-to-server.herokuapp.com/login'}
-                 className='sign-in'>sign in</motion.a>
-              </span> to Spotify.
+                 className='sign-in'>sign in</span> to Spotify.
             </motion.h1>
           }
 
